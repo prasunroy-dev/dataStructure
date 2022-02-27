@@ -31,7 +31,7 @@ public class Demo {
 		int arr2[] = { 1, 2, 3, 4, 5, 6, 7 };
 		System.out.print("Input Array : ");
 		printArray(arr2);
-		ReversalAlgorithm.rotateArray(arr2, 2);
+		ReversalAlgorithm.rotateArray(arr2, 3);
 		System.out.print("Output Array : ");
 		printArray(arr2);
 

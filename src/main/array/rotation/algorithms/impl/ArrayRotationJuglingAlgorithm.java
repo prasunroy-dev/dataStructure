@@ -1,6 +1,7 @@
 package main.array.rotation.algorithms.impl;
 
 public class ArrayRotationJuglingAlgorithm {
+	
 	public static void rotateArray(int[] arr, int d) {
 		int n = arr.length;
 		d = d % n;
@@ -22,6 +23,8 @@ public class ArrayRotationJuglingAlgorithm {
 		}
 
 	}
+	
+	
 
 	private static int calcGCD(int a, int b) {
 		if (b == 0)
