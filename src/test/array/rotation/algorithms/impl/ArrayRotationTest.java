@@ -1,4 +1,4 @@
-package test.array.rotation;
+package test.array.rotation.algorithms.impl;
 
 import static org.junit.jupiter.api.Assertions.*;
 

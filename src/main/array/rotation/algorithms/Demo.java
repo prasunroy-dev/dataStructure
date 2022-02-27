@@ -1,4 +1,4 @@
-package main.array.rotation;
+package main.array.rotation.algorithms;
 
 import main.array.rotation.algorithms.impl.ArrayRotationJuglingAlgorithm;
 import main.array.rotation.algorithms.impl.BasicArrayRotation;
