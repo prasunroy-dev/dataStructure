@@ -1,14 +1,9 @@
 package main.array.rotation.algorithms;
 
-import main.array.rotation.algorithms.impl.ArrayRotationJuglingAlgorithm;
-import main.array.rotation.algorithms.impl.BasicArrayRotation;
-import main.array.rotation.algorithms.impl.LeftRotateByOneAlgotithm;
-import main.array.rotation.algorithms.impl.ReversalAlgorithm;
-
-public class Demo {
+public class Main {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println("-----BasicArrayRotationDemo-----");
 		int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
 		System.out.print("Input Array : ");
@@ -16,7 +11,7 @@ public class Demo {
 		BasicArrayRotation.rotateArray(arr, 2);
 		System.out.print("Output Array : ");
 		printArray(arr);
-		
+
 		System.out.println();
 		System.out.println("-----LeftRotateByOneDemo-----");
 		int arr1[] = { 1, 2, 3, 4, 5, 6, 7 };
@@ -25,7 +20,7 @@ public class Demo {
 		LeftRotateByOneAlgotithm.rotateArray(arr1, 2);
 		System.out.print("Output Array : ");
 		printArray(arr1);
-		
+
 		System.out.println();
 		System.out.println("-----ReversalAlgorithmDemo-----");
 		int arr2[] = { 1, 2, 3, 4, 5, 6, 7 };
@@ -34,9 +29,27 @@ public class Demo {
 		ReversalAlgorithm.rotateArray(arr2, 3);
 		System.out.print("Output Array : ");
 		printArray(arr2);
+		
+		System.out.println();
+		System.out.println("-----JugglingAlgorithmDemo-----");
+		int arr3[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		System.out.print("Input Array : ");
+		printArray(arr3);
+		ArrayRotationJuglingAlgorithm.rotateArray(arr3, 3);
+		System.out.print("Output Array : ");
+		printArray(arr3);
+
+		System.out.println();
+		System.out.println("-----BlockSwapAlgorithmDemo-----");
+		int arr4[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		System.out.print("Input Array : ");
+		printArray(arr4);
+		ArrayRotationBlockSwapAlgorithm.blockSwap(arr4, 0,12,arr3.length);
+		System.out.print("Output Array : ");
+		printArray(arr4);
 
 	}
-	
+
 	public static void printArray(int[] arr) {
 		System.out.print("[");
 		for (int i = 0; i < arr.length; i++) {

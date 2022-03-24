@@ -1,4 +1,4 @@
-package main.array.rotation.algorithms.impl;
+package main.array.rotation.algorithms;
 
 public class ReversalAlgorithm {
 	public static void rotateArray(int[] arr, int d) {

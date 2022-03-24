@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import main.array.rotation.algorithms.impl.BasicArrayRotation;
-import main.array.rotation.algorithms.impl.LeftRotateByOneAlgotithm;
+import main.array.rotation.algorithms.BasicArrayRotation;
+import main.array.rotation.algorithms.LeftRotateByOneAlgotithm;
 
 class ArrayRotationTest {
 
